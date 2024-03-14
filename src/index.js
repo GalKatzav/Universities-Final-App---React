@@ -7,20 +7,22 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../src/comps/screens/Home.js";
 import About from "../src/comps/screens/About.js";
 import Universities from "../src/comps/screens/Universities.js";
+import NotFound from "../src/comps/screens/NotFound.js"; // Import the NotFound component
 import Footer from "../src/comps/footer/Footer"; // Import the Footer component
-import MyRouter from "../src/comps/navbar/MyRouter"; // Assuming MyRouter contains your navbar and footer components
+import MyRouter from "../src/comps/navbar/MyRouter"; // Assuming MyRouter contains your navbar components
 
 ReactDOM.render(
   <BrowserRouter>
     <div>
-      {/* Include the navbar and footer components outside the Routes */}
+      {/* Include the navbar component outside the Routes */}
       <MyRouter />
       <Footer />
       <Routes>
         <Route path="/" element={<App />} />
-        {<Route path="/home" element={<Home />} />}
+        <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/Universities" element={<Universities />} />
+        <Route path="/universities" element={<Universities />} />
+        <Route path="*" element={<NotFound />} /> {/* Route for handling 404 errors */}
       </Routes>
     </div>
   </BrowserRouter>,

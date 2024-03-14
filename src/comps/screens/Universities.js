@@ -68,7 +68,9 @@ const Universities = () => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
         />
-        <button onClick={handleSearchByCountry}>Search by Country</button>
+        <button className="search-button" onClick={handleSearchByCountry}>
+          Search by Country
+        </button>
       </div>
 
       {/* Display universities if data is loaded, otherwise show loading message */}
