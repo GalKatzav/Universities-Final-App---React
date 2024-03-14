@@ -4,10 +4,9 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-// import Home from "./screens/Home";
-// import About from "./screens/About";
-// import Universities from "./screens/Universities.js";
-// import AddUniversities from "./screens/AddUniversities";
+import Home from "../src/comps/screens/Home.js";
+import About from "../src/comps/screens/About.js";
+import Universities from "../src/comps/screens/Universities.js";
 import Footer from "../src/comps/footer/Footer"; // Import the Footer component
 import MyRouter from "../src/comps/navbar/MyRouter"; // Assuming MyRouter contains your navbar and footer components
 
@@ -19,10 +18,9 @@ ReactDOM.render(
       <Footer />
       <Routes>
         <Route path="/" element={<App />} />
-        {/* <Route path="/home" element={<Home />} />
+        {<Route path="/home" element={<Home />} />}
         <Route path="/about" element={<About />} />
         <Route path="/Universities" element={<Universities />} />
-        <Route path="/addUniversities" element={<AddUniversities />} /> */}
       </Routes>
     </div>
   </BrowserRouter>,
