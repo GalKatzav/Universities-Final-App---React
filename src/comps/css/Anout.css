@@ -1,13 +1,24 @@
-
+/* About.css */
 .about-container {
-    text-align: center; /* Center align text */
-  }
-  
-  .about-container h1 {
-    margin-bottom: 20px; /* Add some space below the heading */
-  }
-  
-  .about-container p {
-    margin-bottom: 15px; /* Add some space below paragraphs */
-  }
-  
+  text-align: center; /* Center align text */
+}
+
+.about-container h1 {
+  margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.about-container p {
+  margin-bottom: 15px; /* Add some space below paragraphs */
+}
+
+.student-images {
+  display: flex;
+  justify-content: center; /* Center align student images */
+  margin-bottom: 20px; /* Add some space below student images */
+}
+
+.student-images img {
+  width: 200px; /* Set width of student images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add some space between student images */
+}
