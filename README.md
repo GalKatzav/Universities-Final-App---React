@@ -51,10 +51,10 @@ My system gives information about universities around the world, the system was 
 
 ![alt text](<דף אודות.png>)
 
--World Univerties Page
+- World Univerties Page
 
 ![alt text](<דף המידע כללי.png>)
 
--Search University & Info of a specific university
+- Search University & Info of a specific university
 
 ![alt text](<מידע על אוניברסיטה ספציפיתכולל חיפוש.png>)
