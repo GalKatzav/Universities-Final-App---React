@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
-import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../src/comps/screens/Home.js";
@@ -19,8 +18,7 @@ ReactDOM.render(
       <MyRouter />
       <Footer />
       <Routes>
-        <Route path="/" element={<App />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/universities" element={<Universities />} />
         <Route path="*" element={<NotFound />} />{" "}

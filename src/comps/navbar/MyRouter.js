@@ -12,7 +12,7 @@ export default function MyRouter() {
           {" "}
           {/* Change me-auto to mx-auto for center alignment */}
           <li className="nav-item">
-            <Link to="/home" className="nav-link active">
+            <Link to="/" className="nav-link active">
               Home
             </Link>
           </li>
