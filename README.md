@@ -35,7 +35,8 @@ npm install react-icons
 
 ```
 
-Explanation of the system:
+## Explanation of the system:
+
 My system gives information about universities around the world, the system was written in react. There are 4 pages in the system:
 
 1. Home Page - login page to the system.
