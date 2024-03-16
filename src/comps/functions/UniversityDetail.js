@@ -1,24 +1,27 @@
 import React from "react";
 import "../css/Universities.css"; // Import CSS file for styling
 
+// Display the info of the universities - university name, country and website url link
 const UniversityDetail = ({ university, onClose }) => {
-    return (
-      <div className="form-container">
-        <h2>{university.name}</h2>
-        <p>Country: {university.country}</p>
-        <p>
-          Website:{" "}
-          {university.web_pages.map((url, index) => (
-            <a key={index} href={url}>
-              {url}
-            </a>
-          ))}
-        </p>
-        <div>
-          <button className="close-button" onClick={onClose}>Close</button>
-        </div>
+  return (
+    <div className="form-container">
+      <h2>{university.name}</h2>
+      <p>Country: {university.country}</p>
+      <p>
+        Website:{" "}
+        {university.web_pages.map((url, index) => (
+          <a key={index} href={url}>
+            {url}
+          </a>
+        ))}
+      </p>
+      <div>
+        <button className="close-button" onClick={onClose}>
+          Close
+        </button>
       </div>
-    );
-  };
-  
-  export default UniversityDetail;
+    </div>
+  );
+};
+
+export default UniversityDetail;
