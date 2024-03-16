@@ -45,16 +45,16 @@ My system gives information about universities around the world, the system was 
 
 - Home Page
 
-![alt text](<דף בית.png>)
+![alt text](src/screens/<דף בית.png>)
 
 - About Page
 
-![alt text](<דף אודות.png>)
+![alt text](src/screens/<דף אודות.png>)
 
 - World Univerties Page
 
-![alt text](<דף המידע כללי.png>)
+![alt text](src/screens/<דף המידע כללי.png>)
 
 - Search University & Info of a specific university
 
-![alt text](<מידע על אוניברסיטה ספציפיתכולל חיפוש.png>)
+![alt text](src/screens/<מידע על אוניברסיטה ספציפיתכולל חיפוש.png>)
