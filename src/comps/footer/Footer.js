@@ -2,6 +2,9 @@ import React from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import "./Footer.css"; // Import CSS file for styling
 
+// The `Footer` component renders a footer section with the name, copyright year, and social media icons (LinkedIn and GitHub).
+// It embeds dynamic content for the name and current year.
+// Social media icons are rendered using the `react-icons/fa` library.
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   const name = "Gal Katzav";
