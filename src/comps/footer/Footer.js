@@ -25,7 +25,7 @@ const Footer = () => {
             <FaLinkedin />
           </a>
           <a
-            href="https://github.com/GalKatzav/React-Final-Project.git"
+            href="https://github.com/GalKatzav/Universities-Final-App-React.git"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-link"
