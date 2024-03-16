@@ -20,6 +20,7 @@ ReactDOM.render(
       <Footer />
       <Routes>
         <Route path="/" element={<Home />} /> {/* Route for Home page */}
+        <Route path="/home" element={<Home />} /> {/* Route for Home page */}
         <Route path="/about" element={<About />} /> {/* Route for About page */}
         <Route path="/universities" element={<Universities />} />{" "}
         {/* Route for Universities page */}
