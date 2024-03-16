@@ -22,3 +22,10 @@
   height: auto; /* Maintain aspect ratio */
   margin: 0 10px; /* Add some space between student images */
 }
+body {
+  background-color: rgb(244, 244, 234); /* Set the background color of the entire page to pink */
+}
+
+.main-content {
+  background-color: rgb(244, 244, 234); /* Set the background color of the main content area to pink */
+}

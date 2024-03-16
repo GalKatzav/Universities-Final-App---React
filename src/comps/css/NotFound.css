@@ -6,4 +6,11 @@
   .not-found-text {
     margin-bottom: 20px;
   }
+  body {
+    background-color: rgb(244, 244, 234); /* Set the background color of the entire page to pink */
+  }
+  
+  .main-content {
+    background-color: rgb(244, 244, 234); /* Set the background color of the main content area to pink */
+  }
   
