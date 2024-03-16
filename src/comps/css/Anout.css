@@ -18,7 +18,7 @@
 }
 
 .student-images img {
-  width: 200px; /* Set width of student images */
+  width: 125px; /* Set width of student images */
   height: auto; /* Maintain aspect ratio */
   margin: 0 10px; /* Add some space between student images */
 }
