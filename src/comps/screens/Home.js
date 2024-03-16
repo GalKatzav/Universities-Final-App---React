@@ -7,6 +7,7 @@ const Home = () => {
     <div className="home-container">
       <h1>Universities Around the World</h1>
       <p>Presented by Gal Katzav</p>
+      {/* Create button to universities page */}
       <Link to="/universities" className="btn">
         Search for Universities
       </Link>

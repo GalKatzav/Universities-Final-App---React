@@ -24,7 +24,12 @@ const About = () => {
           }
           alt="Student 3"
         />
-        <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlYyWm0ZldOZlxh5pCuJLaxb1vOGwEsxND-g&usqp=CAU"} alt="Student 4" />
+        <img
+          src={
+            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlYyWm0ZldOZlxh5pCuJLaxb1vOGwEsxND-g&usqp=CAU"
+          }
+          alt="Student 4"
+        />
       </div>
       <p>
         My name is Gal Katzav, and I have a strong passion for exploring
