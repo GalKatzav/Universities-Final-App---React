@@ -11,6 +11,7 @@ The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
 add packages we need:
+
 - node models
 
 ```sh
@@ -40,4 +41,20 @@ My system gives information about universities around the world, the system was 
 3. World Universities Page - This page loads data from an external API link. On this page you can search for universities by name or by country. You can enter the information about each university separately and see the data there: name of the institution, country and website.
 4. Not Found Page - When the user enters an incorrect url or tries to reach a page in the system that does not exist, a page appears with a link to return to the home page.
 
+## System images
+
+- Home Page
+
 ![alt text](<דף בית.png>)
+
+- About Page
+
+![alt text](<דף אודות.png>)
+
+-World Univerties Page
+
+![alt text](<דף המידע כללי.png>)
+
+-Search University & Info of a specific university
+
+![alt text](<מידע על אוניברסיטה ספציפיתכולל חיפוש.png>)
