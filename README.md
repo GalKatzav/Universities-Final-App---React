@@ -58,3 +58,7 @@ My system gives information about universities around the world, the system was 
 - Search University & Info of a specific university
 
 ![Search University & Info of a specific university](src/screensPic/SearchAndSpecificInfo.png)
+
+- Not Found Page
+
+![Search University & Info of a specific university](src/screensPic/NotFoundPage.png)
