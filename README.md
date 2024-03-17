@@ -32,6 +32,13 @@ npm install react-icons
 
 ```
 
+- bootstrap
+
+```sh
+npm install bootstrap@5.3.3
+
+```
+
 ## Explanation of the system:
 
 My system gives information about universities around the world, the system was written in react. There are 4 pages in the system:
