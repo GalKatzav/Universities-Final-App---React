@@ -1,7 +1,9 @@
 /* About.css */
 .about-container {
   text-align: center; /* Center align text */
+  padding-bottom: 50px; /* Add padding to the bottom to avoid overlap with the footer */
 }
+
 
 .about-container h1 {
   margin-bottom: 20px; /* Add some space below the heading */
@@ -18,10 +20,9 @@
 }
 
 .student-images img {
-  width: 125px; /* Set width of student images */
+  width: 200px; /* Set width of student images */
   height: auto; /* Maintain aspect ratio */
-  margin: 0 10px; /* Add some space between student images */
-}
+  margin: 0 10px; /* Add some space between student images *200
 body {
   background-color: rgb(244, 244, 234); /* Set the background color of the entire page to pink */
 }

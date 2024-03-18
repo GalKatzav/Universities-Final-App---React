@@ -1,6 +1,7 @@
 .universities-container {
   padding: 20px;
   text-align: center; /* Center align text */
+  padding-bottom: 50px; /* Add padding to the bottom to avoid overlap with the footer */
 }
 
 h1 {
