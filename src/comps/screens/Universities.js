@@ -52,7 +52,6 @@ const Universities = () => {
   }, []);
 
   // Filter universities based on search query and country if enabled
-
   const filteredUniversities = universities.filter((university) => {
     // Country-based Filtering:
     // This line checks whether the user has enabled the search by country feature (`searchByCountry` is `true`)
